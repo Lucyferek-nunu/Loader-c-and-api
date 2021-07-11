@@ -1,2 +1,2 @@
 # Loader-c-and-api
-simple loader writen in c++ with api
+simple loader written in c++ with api

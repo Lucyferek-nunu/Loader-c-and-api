@@ -1,0 +1,149 @@
+﻿  Login.cpp
+  Network.cpp
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+libcurl.lib(socketpair.obj) : error LNK2001: unresolved external symbol __imp__closesocket@4
+libcurl.lib(multi.obj) : error LNK2001: unresolved external symbol __imp__closesocket@4
+libcurl.lib(asyn-thread.obj) : error LNK2001: unresolved external symbol __imp__closesocket@4
+libcurl.lib(connect.obj) : error LNK2001: unresolved external symbol __imp__closesocket@4
+libcurl.lib(hostip6.obj) : error LNK2001: unresolved external symbol __imp__closesocket@4
+libcurl.lib(multi.obj) : error LNK2019: unresolved external symbol __imp__recv@16 referenced in function _multi_wait
+libcurl.lib(sendf.obj) : error LNK2001: unresolved external symbol __imp__recv@16
+libcurl.lib(connect.obj) : error LNK2001: unresolved external symbol __imp__recv@16
+libcurl.lib(socketpair.obj) : error LNK2001: unresolved external symbol __imp__recv@16
+libcurl.lib(telnet.obj) : error LNK2019: unresolved external symbol __imp__send@16 referenced in function _telnet_do
+libcurl.lib(multi.obj) : error LNK2001: unresolved external symbol __imp__send@16
+libcurl.lib(asyn-thread.obj) : error LNK2001: unresolved external symbol __imp__send@16
+libcurl.lib(sendf.obj) : error LNK2001: unresolved external symbol __imp__send@16
+libcurl.lib(socketpair.obj) : error LNK2001: unresolved external symbol __imp__send@16
+libcurl.lib(schannel.obj) : error LNK2019: unresolved external symbol __imp__WSAGetLastError@0 referenced in function _get_alg_id_by_name
+libcurl.lib(ftp.obj) : error LNK2001: unresolved external symbol __imp__WSAGetLastError@0
+libcurl.lib(telnet.obj) : error LNK2001: unresolved external symbol __imp__WSAGetLastError@0
+libcurl.lib(tftp.obj) : error LNK2001: unresolved external symbol __imp__WSAGetLastError@0
+libcurl.lib(multi.obj) : error LNK2001: unresolved external symbol __imp__WSAGetLastError@0
+libcurl.lib(asyn-thread.obj) : error LNK2001: unresolved external symbol __imp__WSAGetLastError@0
+libcurl.lib(sendf.obj) : error LNK2001: unresolved external symbol __imp__WSAGetLastError@0
+libcurl.lib(connect.obj) : error LNK2001: unresolved external symbol __imp__WSAGetLastError@0
+libcurl.lib(connect.obj) : error LNK2019: unresolved external symbol __imp__bind@12 referenced in function _bindlocal
+libcurl.lib(socketpair.obj) : error LNK2001: unresolved external symbol __imp__bind@12
+libcurl.lib(ftp.obj) : error LNK2001: unresolved external symbol __imp__bind@12
+libcurl.lib(tftp.obj) : error LNK2001: unresolved external symbol __imp__bind@12
+libcurl.lib(connect.obj) : error LNK2019: unresolved external symbol __imp__connect@12 referenced in function _singleipconnect
+libcurl.lib(socketpair.obj) : error LNK2001: unresolved external symbol __imp__connect@12
+libcurl.lib(connect.obj) : error LNK2019: unresolved external symbol __imp__getpeername@12 referenced in function _Curl_conninfo_remote
+libcurl.lib(connect.obj) : error LNK2019: unresolved external symbol __imp__getsockname@12 referenced in function _Curl_conninfo_local
+libcurl.lib(socketpair.obj) : error LNK2001: unresolved external symbol __imp__getsockname@12
+libcurl.lib(ftp.obj) : error LNK2001: unresolved external symbol __imp__getsockname@12
+libcurl.lib(connect.obj) : error LNK2019: unresolved external symbol __imp__getsockopt@20 referenced in function _Curl_is_connected
+libcurl.lib(telnet.obj) : error LNK2001: unresolved external symbol __imp__htons@4
+libcurl.lib(doh.obj) : error LNK2001: unresolved external symbol __imp__htons@4
+libcurl.lib(socks_sspi.obj) : error LNK2001: unresolved external symbol __imp__htons@4
+libcurl.lib(connect.obj) : error LNK2001: unresolved external symbol __imp__htons@4
+libcurl.lib(curl_addrinfo.obj) : error LNK2001: unresolved external symbol __imp__htons@4
+libcurl.lib(ftp.obj) : error LNK2001: unresolved external symbol __imp__htons@4
+libcurl.lib(smb.obj) : error LNK2001: unresolved external symbol __imp__htons@4
+libcurl.lib(connect.obj) : error LNK2019: unresolved external symbol __imp__ntohs@4 referenced in function _Curl_addr2string
+libcurl.lib(ftp.obj) : error LNK2001: unresolved external symbol __imp__ntohs@4
+libcurl.lib(socks_sspi.obj) : error LNK2001: unresolved external symbol __imp__ntohs@4
+libcurl.lib(connect.obj) : error LNK2019: unresolved external symbol __imp__setsockopt@20 referenced in function _Curl_sndbufset
+libcurl.lib(transfer.obj) : error LNK2001: unresolved external symbol __imp__setsockopt@20
+libcurl.lib(socketpair.obj) : error LNK2001: unresolved external symbol __imp__setsockopt@20
+libcurl.lib(connect.obj) : error LNK2019: unresolved external symbol __imp__socket@12 referenced in function _Curl_socket
+libcurl.lib(hostip6.obj) : error LNK2001: unresolved external symbol __imp__socket@12
+libcurl.lib(socketpair.obj) : error LNK2001: unresolved external symbol __imp__socket@12
+libcurl.lib(connect.obj) : error LNK2019: unresolved external symbol __imp__WSASetLastError@4 referenced in function _Curl_is_connected
+libcurl.lib(select.obj) : error LNK2001: unresolved external symbol __imp__WSASetLastError@4
+libcurl.lib(curl_addrinfo.obj) : error LNK2001: unresolved external symbol __imp__WSASetLastError@4
+libcurl.lib(connect.obj) : error LNK2019: unresolved external symbol __imp__WSAIoctl@36 referenced in function _singleipconnect
+libcurl.lib(transfer.obj) : error LNK2001: unresolved external symbol __imp__WSAIoctl@36
+libcurl.lib(system_win32.obj) : error LNK2019: unresolved external symbol __imp__WSAStartup@8 referenced in function _Curl_win32_init
+libcurl.lib(system_win32.obj) : error LNK2019: unresolved external symbol __imp__WSACleanup@0 referenced in function _Curl_win32_cleanup
+libcurl.lib(socketpair.obj) : error LNK2019: unresolved external symbol __imp__accept@12 referenced in function _Curl_socketpair
+libcurl.lib(ftp.obj) : error LNK2001: unresolved external symbol __imp__accept@12
+libcurl.lib(socketpair.obj) : error LNK2019: unresolved external symbol __imp__htonl@4 referenced in function _Curl_socketpair
+libcurl.lib(krb5_sspi.obj) : error LNK2001: unresolved external symbol __imp__htonl@4
+libcurl.lib(socketpair.obj) : error LNK2019: unresolved external symbol __imp__listen@8 referenced in function _Curl_socketpair
+libcurl.lib(ftp.obj) : error LNK2001: unresolved external symbol __imp__listen@8
+libcurl.lib(nonblock.obj) : error LNK2019: unresolved external symbol __imp__ioctlsocket@12 referenced in function _curlx_nonblock
+libcurl.lib(select.obj) : error LNK2019: unresolved external symbol ___WSAFDIsSet@8 referenced in function _Curl_poll
+libcurl.lib(select.obj) : error LNK2019: unresolved external symbol __imp__select@20 referenced in function _Curl_poll
+libcurl.lib(curl_addrinfo.obj) : error LNK2019: unresolved external symbol __imp__getaddrinfo@16 referenced in function _Curl_getaddrinfo_ex
+libcurl.lib(curl_addrinfo.obj) : error LNK2019: unresolved external symbol __imp__freeaddrinfo@4 referenced in function _Curl_getaddrinfo_ex
+libcurl.lib(md4.obj) : error LNK2001: unresolved external symbol __imp__CryptAcquireContextA@20
+libcurl.lib(schannel.obj) : error LNK2001: unresolved external symbol __imp__CryptAcquireContextA@20
+libcurl.lib(md5.obj) : error LNK2001: unresolved external symbol __imp__CryptAcquireContextA@20
+libcurl.lib(curl_ntlm_core.obj) : error LNK2001: unresolved external symbol __imp__CryptAcquireContextA@20
+libcurl.lib(sha256.obj) : error LNK2001: unresolved external symbol __imp__CryptAcquireContextA@20
+libcurl.lib(md4.obj) : error LNK2001: unresolved external symbol __imp__CryptReleaseContext@8
+libcurl.lib(schannel.obj) : error LNK2001: unresolved external symbol __imp__CryptReleaseContext@8
+libcurl.lib(md5.obj) : error LNK2001: unresolved external symbol __imp__CryptReleaseContext@8
+libcurl.lib(curl_ntlm_core.obj) : error LNK2001: unresolved external symbol __imp__CryptReleaseContext@8
+libcurl.lib(sha256.obj) : error LNK2001: unresolved external symbol __imp__CryptReleaseContext@8
+libcurl.lib(schannel.obj) : error LNK2019: unresolved external symbol __imp__CryptGetHashParam@20 referenced in function _schannel_sha256sum
+libcurl.lib(md5.obj) : error LNK2001: unresolved external symbol __imp__CryptGetHashParam@20
+libcurl.lib(sha256.obj) : error LNK2001: unresolved external symbol __imp__CryptGetHashParam@20
+libcurl.lib(md4.obj) : error LNK2001: unresolved external symbol __imp__CryptGetHashParam@20
+libcurl.lib(schannel.obj) : error LNK2019: unresolved external symbol __imp__CryptGenRandom@12 referenced in function _schannel_random
+libcurl.lib(schannel.obj) : error LNK2019: unresolved external symbol __imp__CryptCreateHash@20 referenced in function _schannel_sha256sum
+libcurl.lib(md5.obj) : error LNK2001: unresolved external symbol __imp__CryptCreateHash@20
+libcurl.lib(sha256.obj) : error LNK2001: unresolved external symbol __imp__CryptCreateHash@20
+libcurl.lib(md4.obj) : error LNK2001: unresolved external symbol __imp__CryptCreateHash@20
+libcurl.lib(schannel.obj) : error LNK2019: unresolved external symbol __imp__CryptHashData@16 referenced in function _schannel_sha256sum
+libcurl.lib(md5.obj) : error LNK2001: unresolved external symbol __imp__CryptHashData@16
+libcurl.lib(sha256.obj) : error LNK2001: unresolved external symbol __imp__CryptHashData@16
+libcurl.lib(md4.obj) : error LNK2001: unresolved external symbol __imp__CryptHashData@16
+libcurl.lib(schannel.obj) : error LNK2019: unresolved external symbol __imp__CryptDestroyHash@4 referenced in function _schannel_sha256sum
+libcurl.lib(md5.obj) : error LNK2001: unresolved external symbol __imp__CryptDestroyHash@4
+libcurl.lib(sha256.obj) : error LNK2001: unresolved external symbol __imp__CryptDestroyHash@4
+libcurl.lib(md4.obj) : error LNK2001: unresolved external symbol __imp__CryptDestroyHash@4
+libcurl.lib(schannel.obj) : error LNK2019: unresolved external symbol __imp__CertOpenStore@20 referenced in function _schannel_connect_step1
+libcurl.lib(schannel_verify.obj) : error LNK2001: unresolved external symbol __imp__CertOpenStore@20
+libcurl.lib(schannel.obj) : error LNK2019: unresolved external symbol __imp__CertCloseStore@8 referenced in function _schannel_connect_step1
+libcurl.lib(schannel_verify.obj) : error LNK2001: unresolved external symbol __imp__CertCloseStore@8
+libcurl.lib(schannel.obj) : error LNK2019: unresolved external symbol __imp__CertEnumCertificatesInStore@8 referenced in function _traverse_cert_store
+libcurl.lib(schannel.obj) : error LNK2019: unresolved external symbol __imp__CertFindCertificateInStore@24 referenced in function _schannel_connect_step1
+libcurl.lib(schannel.obj) : error LNK2019: unresolved external symbol __imp__CertFreeCertificateContext@4 referenced in function _pkp_pin_peer_pubkey
+libcurl.lib(schannel_verify.obj) : error LNK2001: unresolved external symbol __imp__CertFreeCertificateContext@4
+libcurl.lib(schannel.obj) : error LNK2019: unresolved external symbol __imp__CryptStringToBinaryA@28 referenced in function _schannel_connect_step1
+libcurl.lib(schannel.obj) : error LNK2019: unresolved external symbol __imp__PFXImportCertStore@12 referenced in function _schannel_connect_step1
+libcurl.lib(telnet.obj) : error LNK2019: unresolved external symbol __imp__WSACloseEvent@4 referenced in function _telnet_do
+libcurl.lib(telnet.obj) : error LNK2019: unresolved external symbol __imp__WSACreateEvent@0 referenced in function _telnet_do
+libcurl.lib(telnet.obj) : error LNK2019: unresolved external symbol __imp__WSAEnumNetworkEvents@12 referenced in function _telnet_do
+libcurl.lib(telnet.obj) : error LNK2019: unresolved external symbol __imp__WSAEventSelect@12 referenced in function _telnet_do
+libcurl.lib(tftp.obj) : error LNK2019: unresolved external symbol __imp__recvfrom@24 referenced in function _tftp_receive_packet
+libcurl.lib(tftp.obj) : error LNK2019: unresolved external symbol __imp__sendto@24 referenced in function _tftp_rx
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_init referenced in function _ldap_do
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_sslinit referenced in function _ldap_do
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_unbind_s referenced in function _ldap_do
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_set_option referenced in function _ldap_do
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_simple_bind_s referenced in function _ldap_win_bind
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_bind_s referenced in function _ldap_win_bind
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_search_s referenced in function _ldap_do
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_msgfree referenced in function _ldap_do
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_err2string referenced in function _ldap_do
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_first_entry referenced in function _ldap_do
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_next_entry referenced in function _ldap_do
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_first_attribute referenced in function _ldap_do
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_next_attribute referenced in function _ldap_do
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_get_values_len referenced in function _ldap_do
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_value_free_len referenced in function _ldap_do
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_get_dn referenced in function _ldap_do
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ldap_memfree referenced in function _ldap_do
+libcurl.lib(ldap.obj) : error LNK2019: unresolved external symbol __imp__ber_free referenced in function _ldap_do
+libcurl.lib(idn_win32.obj) : error LNK2019: unresolved external symbol __imp__IdnToAscii@20 referenced in function _curl_win32_idn_to_ascii
+libcurl.lib(idn_win32.obj) : error LNK2019: unresolved external symbol __imp__IdnToUnicode@20 referenced in function _curl_win32_ascii_to_idn
+libcurl.lib(schannel_verify.obj) : error LNK2019: unresolved external symbol __imp__CryptDecodeObjectEx@32 referenced in function _cert_get_name_string
+libcurl.lib(schannel_verify.obj) : error LNK2019: unresolved external symbol __imp__CertAddCertificateContextToStore@16 referenced in function _add_certs_to_store
+libcurl.lib(schannel_verify.obj) : error LNK2019: unresolved external symbol __imp__CertFindExtension@12 referenced in function _cert_get_name_string
+libcurl.lib(schannel_verify.obj) : error LNK2019: unresolved external symbol __imp__CertGetNameStringA@24 referenced in function _cert_get_name_string
+libcurl.lib(schannel_verify.obj) : error LNK2019: unresolved external symbol __imp__CryptQueryObject@44 referenced in function _add_certs_to_store
+libcurl.lib(schannel_verify.obj) : error LNK2019: unresolved external symbol __imp__CertCreateCertificateChainEngine@8 referenced in function _Curl_verify_certificate
+libcurl.lib(schannel_verify.obj) : error LNK2019: unresolved external symbol __imp__CertFreeCertificateChainEngine@4 referenced in function _Curl_verify_certificate
+libcurl.lib(schannel_verify.obj) : error LNK2019: unresolved external symbol __imp__CertGetCertificateChain@32 referenced in function _Curl_verify_certificate
+libcurl.lib(schannel_verify.obj) : error LNK2019: unresolved external symbol __imp__CertFreeCertificateChain@4 referenced in function _Curl_verify_certificate
+libcurl.lib(curl_gethostname.obj) : error LNK2019: unresolved external symbol __imp__gethostname@8 referenced in function _Curl_gethostname
+libcurl.lib(curl_ntlm_core.obj) : error LNK2019: unresolved external symbol __imp__CryptDestroyKey@4 referenced in function _encrypt_des
+libcurl.lib(curl_ntlm_core.obj) : error LNK2019: unresolved external symbol __imp__CryptImportKey@24 referenced in function _encrypt_des
+libcurl.lib(curl_ntlm_core.obj) : error LNK2019: unresolved external symbol __imp__CryptEncrypt@28 referenced in function _encrypt_des
+libcurl.lib(krb5_sspi.obj) : error LNK2019: unresolved external symbol __imp__ntohl@4 referenced in function _Curl_auth_create_gssapi_security_message
+C:\Users\USER\Desktop\high shit\loader by nunu\Login\Debug\Login.exe : fatal error LNK1120: 79 unresolved externals
